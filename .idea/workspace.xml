@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="26586752-af22-48a9-a8d1-d5819e1e8043" name="Changes" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/DTO/BookDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/DTO/CartItemDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/DTO/ReviewDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/DTO/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/aop/ApplicationContextHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/common/Constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/common/ConstantException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/common/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/config/MethodRestConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/config/WebSocKetConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/exception/ExceptionConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/exception/ExceptionModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/exception/HandelException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/exception/HrmException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/exception/MappingException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/filter/JwtFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/persistence/Repository/BookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/persistence/Repository/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/persistence/Repository/DeliveryMethodRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/persistence/Repository/DiscountCodeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/persistence/Repository/ImageRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/persistence/Repository/OrderDetailRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/persistence/Repository/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/persistence/Repository/PaymentMethodRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/persistence/Repository/ReviewRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/persistence/Repository/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/persistence/Repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/persistence/entity/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/persistence/entity/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/persistence/entity/CartDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/persistence/entity/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/persistence/entity/ChatMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/persistence/entity/DeliveryMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/persistence/entity/DiscountCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/persistence/entity/ErrorNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/persistence/entity/Image.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/persistence/entity/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/persistence/entity/OrderDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/persistence/entity/PaymentMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/persistence/entity/Review.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/persistence/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/persistence/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/presentation/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/presentation/controller/CartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/presentation/controller/ChatController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/presentation/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/presentation/controller/ReviewUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/presentation/controller/SocKetController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/presentation/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/presentation/model/request/Book/PostCreateBookRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/presentation/model/request/Book/PostDeleteBookRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/presentation/model/request/Book/PostUpdateBookRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/presentation/model/request/Cart/PostCartRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/presentation/model/request/DiscountCode/PostCreateDiscountCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/presentation/model/request/Order/PostCreateOrderDetailsRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/presentation/model/request/Order/PostCreateOrderRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/presentation/model/request/User/PostCreateUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/presentation/model/request/User/PostDeleteUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/presentation/model/request/User/PostUpdateUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/presentation/model/response/BaseResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/presentation/service/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/presentation/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/presentation/service/CartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/presentation/service/DiscountCodeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/presentation/service/EmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/presentation/service/JwtService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/presentation/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/presentation/service/ReviewService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/presentation/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/presentation/service/serviceImpl/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/presentation/service/serviceImpl/CartServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/presentation/service/serviceImpl/DiscountCodeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/presentation/service/serviceImpl/EmailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/presentation/service/serviceImpl/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/presentation/service/serviceImpl/ReviewServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/presentation/service/serviceImpl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/security/EndPoints.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/security/JwtResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/security/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/security/loginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/exception.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/test/java/com/example/demo/DemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/test/test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/DTO/BookDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/DTO/CartItemDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/DTO/ReviewDTO$ReviewDTOBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/DTO/ReviewDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/DTO/UserDTO$UserDTOBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/DTO/UserDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/DemoApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/aop/ApplicationContextHolder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/common/Constant$STATUS.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/common/Constant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/common/ConstantException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/common/Utils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/config/MethodRestConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/config/RedisConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/config/WebSocKetConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/exception/ExceptionConstant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/exception/ExceptionModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/exception/HandelException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/exception/HrmException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/exception/MappingException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/filter/JwtFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/persistence/Repository/BookRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/persistence/Repository/CategoryRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/persistence/Repository/DeliveryMethodRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/persistence/Repository/DiscountCodeRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/persistence/Repository/ImageRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/persistence/Repository/OrderDetailRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/persistence/Repository/OrderRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/persistence/Repository/PaymentMethodRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/persistence/Repository/ReviewRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/persistence/Repository/RoleRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/persistence/Repository/UserRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/persistence/entity/Book$BookBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/persistence/entity/Book.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/persistence/entity/Cart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/persistence/entity/CartDetail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/persistence/entity/Category.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/persistence/entity/ChatMessage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/persistence/entity/DeliveryMethod.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/persistence/entity/DiscountCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/persistence/entity/ErrorNotification.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/persistence/entity/Image.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/persistence/entity/Order.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/persistence/entity/OrderDetail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/persistence/entity/PaymentMethod.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/persistence/entity/Review.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/persistence/entity/Role.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/persistence/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/presentation/controller/BookController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/presentation/controller/CartController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/presentation/controller/ChatController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/presentation/controller/OrderController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/presentation/controller/ReviewUserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/presentation/controller/SocKetController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/presentation/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/presentation/model/request/Book/PostCreateBookRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/presentation/model/request/Book/PostDeleteBookRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/presentation/model/request/Book/PostUpdateBookRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/presentation/model/request/Cart/PostCartRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/presentation/model/request/DiscountCode/PostCreateDiscountCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/presentation/model/request/Order/PostCreateOrderDetailsRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/presentation/model/request/Order/PostCreateOrderRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/presentation/model/request/User/PostCreateUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/presentation/model/request/User/PostDeleteUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/presentation/model/request/User/PostUpdateUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/presentation/model/response/BaseResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/presentation/service/AccountServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/presentation/service/BookService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/presentation/service/CartService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/presentation/service/DiscountCodeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/presentation/service/EmailService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/presentation/service/JwtService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/presentation/service/OrderService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/presentation/service/ReviewService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/presentation/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/presentation/service/serviceImpl/BookServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/presentation/service/serviceImpl/CartServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/presentation/service/serviceImpl/DiscountCodeServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/presentation/service/serviceImpl/EmailServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/presentation/service/serviceImpl/OrderServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/presentation/service/serviceImpl/ReviewServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/presentation/service/serviceImpl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/security/EndPoints.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/security/JwtResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/security/SecurityConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/security/loginRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/classes/exception.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/target/test-classes/com/example/demo/DemoApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;dotuan2004&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/dotuan2004/testDeploy.git&quot;,
+    &quot;accountId&quot;: &quot;8677b885-3a2b-4752-aa12-81bfa6ad98c8&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2qQjYct4Tl4jyd2hBBSWXQfyGI3" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.DemoApplication.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/spring/bookstore&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\spring\bookstore" />
+      <recent name="D:\spring\bookstore\demo\src\main\java\com\example\demo" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\spring\bookstore\demo" />
+      <recent name="D:\spring\bookstore" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="DemoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.DemoApplication" />
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DemoApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="26586752-af22-48a9-a8d1-d5819e1e8043" name="Changes" comment="" />
+      <created>1734601743016</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1734601743016</updated>
+    </task>
+    <task id="LOCAL-00001" summary="commit">
+      <option name="closed" value="true" />
+      <created>1735260379981</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1735260379981</updated>
+    </task>
+    <task id="LOCAL-00002" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1743818451909</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1743818451909</updated>
+    </task>
+    <task id="LOCAL-00003" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1743819873770</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1743819873770</updated>
+    </task>
+    <task id="LOCAL-00004" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1743819938609</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1743819938609</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit" />
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+  </component>
+</project>
